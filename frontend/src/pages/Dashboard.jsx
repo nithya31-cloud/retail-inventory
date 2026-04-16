@@ -40,7 +40,7 @@ export default function Dashboard() {
   const [catDist,    setCatDist]    = useState([]);
   const [alerts,     setAlerts]     = useState([]);
   const [recos,      setRecos]      = useState([]);
-  const [trendPeriod, setTrendPeriod] = useState("daily");
+  const [trendPeriod, setTrendPeriod] = useState("monthly");
   const [loading,    setLoading]    = useState(true);
   const [refreshing, setRefreshing] = useState(false);
 

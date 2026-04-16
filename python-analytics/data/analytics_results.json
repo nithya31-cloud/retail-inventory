@@ -1343,1442 +1343,610 @@
     }
   ],
   "sales_trends": {
-    "daily": [
-      {
-        "sale_date": "2015-10-03",
-        "revenue_inr": 70999.06,
-        "units": 165
-      },
-      {
-        "sale_date": "2015-10-04",
-        "revenue_inr": 107316.39,
-        "units": 169
-      },
-      {
-        "sale_date": "2015-10-05",
-        "revenue_inr": 75745.92,
-        "units": 113
-      },
-      {
-        "sale_date": "2015-10-06",
-        "revenue_inr": 155324.61000000002,
-        "units": 117
-      },
-      {
-        "sale_date": "2015-10-07",
-        "revenue_inr": 99460.79,
-        "units": 123
-      },
-      {
-        "sale_date": "2015-10-08",
-        "revenue_inr": 32871.12,
-        "units": 104
-      },
-      {
-        "sale_date": "2015-10-09",
-        "revenue_inr": 29301.86,
-        "units": 138
-      },
-      {
-        "sale_date": "2015-10-10",
-        "revenue_inr": 89992.56,
-        "units": 189
-      },
-      {
-        "sale_date": "2015-10-11",
-        "revenue_inr": 157890.86,
-        "units": 147
-      },
-      {
-        "sale_date": "2015-10-12",
-        "revenue_inr": 57996.619999999995,
-        "units": 126
-      },
-      {
-        "sale_date": "2015-10-13",
-        "revenue_inr": 77064.81,
-        "units": 115
-      },
-      {
-        "sale_date": "2015-10-14",
-        "revenue_inr": 53277.17,
-        "units": 133
-      },
-      {
-        "sale_date": "2015-10-15",
-        "revenue_inr": 69047.99,
-        "units": 98
-      },
-      {
-        "sale_date": "2015-10-16",
-        "revenue_inr": 96356.83,
-        "units": 109
-      },
-      {
-        "sale_date": "2015-10-17",
-        "revenue_inr": 175248.73,
-        "units": 174
-      },
-      {
-        "sale_date": "2015-10-18",
-        "revenue_inr": 81238.59,
-        "units": 173
-      },
-      {
-        "sale_date": "2015-10-19",
-        "revenue_inr": 62706.49,
-        "units": 129
-      },
-      {
-        "sale_date": "2015-10-20",
-        "revenue_inr": 100366.68000000001,
-        "units": 102
-      },
-      {
-        "sale_date": "2015-10-21",
-        "revenue_inr": 68871.77,
-        "units": 97
-      },
-      {
-        "sale_date": "2015-10-22",
-        "revenue_inr": 102024.55,
-        "units": 104
-      },
-      {
-        "sale_date": "2015-10-23",
-        "revenue_inr": 95153.87,
-        "units": 106
-      },
-      {
-        "sale_date": "2015-10-24",
-        "revenue_inr": 95589.22,
-        "units": 148
-      },
-      {
-        "sale_date": "2015-10-25",
-        "revenue_inr": 117007.86,
-        "units": 161
-      },
-      {
-        "sale_date": "2015-10-26",
-        "revenue_inr": 46140.28,
-        "units": 129
-      },
-      {
-        "sale_date": "2015-10-27",
-        "revenue_inr": 80043.89,
-        "units": 117
-      },
-      {
-        "sale_date": "2015-10-28",
-        "revenue_inr": 70292.94,
-        "units": 129
-      },
-      {
-        "sale_date": "2015-10-29",
-        "revenue_inr": 47439.14,
-        "units": 87
-      },
-      {
-        "sale_date": "2015-10-30",
-        "revenue_inr": 52384.02,
-        "units": 122
-      },
-      {
-        "sale_date": "2015-10-31",
-        "revenue_inr": 133282.26,
-        "units": 162
-      },
-      {
-        "sale_date": "2015-11-01",
-        "revenue_inr": 164161.96,
-        "units": 188
-      },
-      {
-        "sale_date": "2015-11-02",
-        "revenue_inr": 115674.3,
-        "units": 162
-      },
-      {
-        "sale_date": "2015-11-03",
-        "revenue_inr": 117514.11,
-        "units": 145
-      },
-      {
-        "sale_date": "2015-11-04",
-        "revenue_inr": 141022.01,
-        "units": 134
-      },
-      {
-        "sale_date": "2015-11-05",
-        "revenue_inr": 94160.23,
-        "units": 120
-      },
-      {
-        "sale_date": "2015-11-06",
-        "revenue_inr": 94962.84,
-        "units": 179
-      },
-      {
-        "sale_date": "2015-11-07",
-        "revenue_inr": 143496.19,
-        "units": 216
-      },
-      {
-        "sale_date": "2015-11-08",
-        "revenue_inr": 258373.95,
-        "units": 304
-      },
-      {
-        "sale_date": "2015-11-09",
-        "revenue_inr": 87362.19,
-        "units": 155
-      },
-      {
-        "sale_date": "2015-11-10",
-        "revenue_inr": 101073.63,
-        "units": 163
-      },
-      {
-        "sale_date": "2015-11-11",
-        "revenue_inr": 87948.73,
-        "units": 120
-      },
-      {
-        "sale_date": "2015-11-12",
-        "revenue_inr": 232501.66999999998,
-        "units": 140
-      },
-      {
-        "sale_date": "2015-11-13",
-        "revenue_inr": 60038.72,
-        "units": 151
-      },
-      {
-        "sale_date": "2015-11-14",
-        "revenue_inr": 125242.04000000001,
-        "units": 234
-      },
-      {
-        "sale_date": "2015-11-15",
-        "revenue_inr": 275984.04,
-        "units": 265
-      },
-      {
-        "sale_date": "2015-11-16",
-        "revenue_inr": 72426.76,
-        "units": 155
-      },
-      {
-        "sale_date": "2015-11-17",
-        "revenue_inr": 99803.59999999999,
-        "units": 143
-      },
-      {
-        "sale_date": "2015-11-18",
-        "revenue_inr": 66829.48,
-        "units": 179
-      },
-      {
-        "sale_date": "2015-11-19",
-        "revenue_inr": 71355.05,
-        "units": 140
-      },
-      {
-        "sale_date": "2015-11-20",
-        "revenue_inr": 225174.9,
-        "units": 185
-      },
-      {
-        "sale_date": "2015-11-21",
-        "revenue_inr": 163574.35,
-        "units": 275
-      },
-      {
-        "sale_date": "2015-11-22",
-        "revenue_inr": 186856.15,
-        "units": 228
-      },
-      {
-        "sale_date": "2015-11-23",
-        "revenue_inr": 63409.21,
-        "units": 180
-      },
-      {
-        "sale_date": "2015-11-24",
-        "revenue_inr": 114404.58,
-        "units": 144
-      },
-      {
-        "sale_date": "2015-11-25",
-        "revenue_inr": 111046.67,
-        "units": 203
-      },
-      {
-        "sale_date": "2015-11-26",
-        "revenue_inr": 154087.81,
-        "units": 193
-      },
-      {
-        "sale_date": "2015-11-27",
-        "revenue_inr": 97496.23,
-        "units": 142
-      },
-      {
-        "sale_date": "2015-11-28",
-        "revenue_inr": 184223.77,
-        "units": 285
-      },
-      {
-        "sale_date": "2015-11-29",
-        "revenue_inr": 146725.07,
-        "units": 241
-      },
-      {
-        "sale_date": "2015-11-30",
-        "revenue_inr": 125404.8,
-        "units": 199
-      },
-      {
-        "sale_date": "2015-12-01",
-        "revenue_inr": 138266.06,
-        "units": 150
-      },
-      {
-        "sale_date": "2015-12-02",
-        "revenue_inr": 78547.58,
-        "units": 192
-      },
-      {
-        "sale_date": "2015-12-03",
-        "revenue_inr": 86867.13,
-        "units": 176
-      },
-      {
-        "sale_date": "2015-12-04",
-        "revenue_inr": 120909.92,
-        "units": 197
-      },
-      {
-        "sale_date": "2015-12-05",
-        "revenue_inr": 116493.05,
-        "units": 224
-      },
-      {
-        "sale_date": "2015-12-06",
-        "revenue_inr": 163715.38,
-        "units": 249
-      },
-      {
-        "sale_date": "2015-12-07",
-        "revenue_inr": 158125.59,
-        "units": 172
-      },
-      {
-        "sale_date": "2015-12-08",
-        "revenue_inr": 111613.72,
-        "units": 144
-      },
-      {
-        "sale_date": "2015-12-09",
-        "revenue_inr": 252443.69,
-        "units": 145
-      },
-      {
-        "sale_date": "2015-12-10",
-        "revenue_inr": 125525.19,
-        "units": 154
-      },
-      {
-        "sale_date": "2015-12-11",
-        "revenue_inr": 82061.22,
-        "units": 161
-      },
-      {
-        "sale_date": "2015-12-12",
-        "revenue_inr": 200754.49,
-        "units": 266
-      },
-      {
-        "sale_date": "2015-12-13",
-        "revenue_inr": 157907.03,
-        "units": 291
-      },
-      {
-        "sale_date": "2015-12-14",
-        "revenue_inr": 98291.12,
-        "units": 173
-      },
-      {
-        "sale_date": "2015-12-15",
-        "revenue_inr": 109308.3,
-        "units": 184
-      },
-      {
-        "sale_date": "2015-12-16",
-        "revenue_inr": 60900.1,
-        "units": 125
-      },
-      {
-        "sale_date": "2015-12-17",
-        "revenue_inr": 269065.06,
-        "units": 164
-      },
-      {
-        "sale_date": "2015-12-18",
-        "revenue_inr": 180412.25,
-        "units": 188
-      },
-      {
-        "sale_date": "2015-12-19",
-        "revenue_inr": 242700.63999999998,
-        "units": 270
-      },
-      {
-        "sale_date": "2015-12-20",
-        "revenue_inr": 237373.35,
-        "units": 341
-      },
-      {
-        "sale_date": "2015-12-21",
-        "revenue_inr": 87419.5,
-        "units": 191
-      },
-      {
-        "sale_date": "2015-12-22",
-        "revenue_inr": 59577.89,
-        "units": 183
-      },
-      {
-        "sale_date": "2015-12-23",
-        "revenue_inr": 107577.49,
-        "units": 201
-      },
-      {
-        "sale_date": "2015-12-24",
-        "revenue_inr": 73938.17,
-        "units": 167
-      },
-      {
-        "sale_date": "2015-12-25",
-        "revenue_inr": 142310.21,
-        "units": 154
-      },
-      {
-        "sale_date": "2015-12-26",
-        "revenue_inr": 201685.64,
-        "units": 221
-      },
-      {
-        "sale_date": "2015-12-27",
-        "revenue_inr": 143664.84,
-        "units": 267
-      },
-      {
-        "sale_date": "2015-12-28",
-        "revenue_inr": 139147.12,
-        "units": 205
-      },
-      {
-        "sale_date": "2015-12-29",
-        "revenue_inr": 178119.80000000002,
-        "units": 186
-      },
-      {
-        "sale_date": "2015-12-30",
-        "revenue_inr": 196119.06,
-        "units": 166
-      },
-      {
-        "sale_date": "2015-12-31",
-        "revenue_inr": 133285.62,
-        "units": 159
-      }
-    ],
-    "weekly": [
-      {
-        "week": "2015-01-05/2015-01-11",
-        "revenue_inr": 343315.08999999997,
-        "units": 710
-      },
-      {
-        "week": "2015-01-12/2015-01-18",
-        "revenue_inr": 354614.84,
-        "units": 619
-      },
-      {
-        "week": "2015-01-19/2015-01-25",
-        "revenue_inr": 395715.36,
-        "units": 609
-      },
-      {
-        "week": "2015-01-26/2015-02-01",
-        "revenue_inr": 415787.55,
-        "units": 617
-      },
-      {
-        "week": "2015-02-02/2015-02-08",
-        "revenue_inr": 570813.04,
-        "units": 883
-      },
-      {
-        "week": "2015-02-09/2015-02-15",
-        "revenue_inr": 600822.3,
-        "units": 918
-      },
-      {
-        "week": "2015-02-16/2015-02-22",
-        "revenue_inr": 886889.64,
-        "units": 852
-      },
-      {
-        "week": "2015-02-23/2015-03-01",
-        "revenue_inr": 641117.67,
-        "units": 817
-      },
-      {
-        "week": "2015-03-02/2015-03-08",
-        "revenue_inr": 580171.28,
-        "units": 844
-      },
-      {
-        "week": "2015-03-09/2015-03-15",
-        "revenue_inr": 664389.41,
-        "units": 687
-      },
-      {
-        "week": "2015-03-16/2015-03-22",
-        "revenue_inr": 441123.47000000003,
-        "units": 736
-      },
-      {
-        "week": "2015-03-23/2015-03-29",
-        "revenue_inr": 701738.76,
-        "units": 733
-      },
-      {
-        "week": "2015-03-30/2015-04-05",
-        "revenue_inr": 656885.77,
-        "units": 844
-      },
-      {
-        "week": "2015-04-06/2015-04-12",
-        "revenue_inr": 454838.16000000003,
-        "units": 809
-      },
-      {
-        "week": "2015-04-13/2015-04-19",
-        "revenue_inr": 751157.3300000001,
-        "units": 768
-      },
-      {
-        "week": "2015-04-20/2015-04-26",
-        "revenue_inr": 416854.58,
-        "units": 875
-      },
-      {
-        "week": "2015-04-27/2015-05-03",
-        "revenue_inr": 492765.38,
-        "units": 747
-      },
-      {
-        "week": "2015-05-04/2015-05-10",
-        "revenue_inr": 416744.69,
-        "units": 614
-      },
-      {
-        "week": "2015-05-11/2015-05-17",
-        "revenue_inr": 367639.86,
-        "units": 734
-      },
-      {
-        "week": "2015-05-18/2015-05-24",
-        "revenue_inr": 478382.5,
-        "units": 691
-      },
-      {
-        "week": "2015-05-25/2015-05-31",
-        "revenue_inr": 368196.38,
-        "units": 639
-      },
-      {
-        "week": "2015-06-01/2015-06-07",
-        "revenue_inr": 420291.59,
-        "units": 710
-      },
-      {
-        "week": "2015-06-08/2015-06-14",
-        "revenue_inr": 397128.17,
-        "units": 635
-      },
-      {
-        "week": "2015-06-15/2015-06-21",
-        "revenue_inr": 453152.61,
-        "units": 618
-      },
-      {
-        "week": "2015-06-22/2015-06-28",
-        "revenue_inr": 322518.83999999997,
-        "units": 620
-      },
-      {
-        "week": "2015-06-29/2015-07-05",
-        "revenue_inr": 616978.58,
-        "units": 536
-      },
-      {
-        "week": "2015-07-06/2015-07-12",
-        "revenue_inr": 440502.27999999997,
-        "units": 434
-      },
-      {
-        "week": "2015-07-13/2015-07-19",
-        "revenue_inr": 283290.87,
-        "units": 481
-      },
-      {
-        "week": "2015-07-20/2015-07-26",
-        "revenue_inr": 405864.77,
-        "units": 527
-      },
-      {
-        "week": "2015-07-27/2015-08-02",
-        "revenue_inr": 623897.9600000001,
-        "units": 456
-      },
-      {
-        "week": "2015-08-03/2015-08-09",
-        "revenue_inr": 186779.68,
-        "units": 499
-      },
-      {
-        "week": "2015-08-10/2015-08-16",
-        "revenue_inr": 304480.48,
-        "units": 464
-      },
-      {
-        "week": "2015-08-17/2015-08-23",
-        "revenue_inr": 399214.25,
-        "units": 449
-      },
-      {
-        "week": "2015-08-24/2015-08-30",
-        "revenue_inr": 265405.23,
-        "units": 496
-      },
-      {
-        "week": "2015-08-31/2015-09-06",
-        "revenue_inr": 559323.53,
-        "units": 492
-      },
-      {
-        "week": "2015-09-07/2015-09-13",
-        "revenue_inr": 461634.54000000004,
-        "units": 561
-      },
-      {
-        "week": "2015-09-14/2015-09-20",
-        "revenue_inr": 539822.38,
-        "units": 609
-      },
-      {
-        "week": "2015-09-21/2015-09-27",
-        "revenue_inr": 500081.02,
-        "units": 625
-      },
-      {
-        "week": "2015-09-28/2015-10-04",
-        "revenue_inr": 475900.22,
-        "units": 771
-      },
-      {
-        "week": "2015-10-05/2015-10-11",
-        "revenue_inr": 640587.72,
-        "units": 931
-      },
-      {
-        "week": "2015-10-12/2015-10-18",
-        "revenue_inr": 610230.74,
-        "units": 928
-      },
-      {
-        "week": "2015-10-19/2015-10-25",
-        "revenue_inr": 641720.4400000001,
-        "units": 847
-      },
-      {
-        "week": "2015-10-26/2015-11-01",
-        "revenue_inr": 593744.49,
-        "units": 934
-      },
-      {
-        "week": "2015-11-02/2015-11-08",
-        "revenue_inr": 965203.63,
-        "units": 1260
-      },
-      {
-        "week": "2015-11-09/2015-11-15",
-        "revenue_inr": 970151.02,
-        "units": 1228
-      },
-      {
-        "week": "2015-11-16/2015-11-22",
-        "revenue_inr": 886020.29,
-        "units": 1305
-      },
-      {
-        "week": "2015-11-23/2015-11-29",
-        "revenue_inr": 871393.34,
-        "units": 1388
-      },
-      {
-        "week": "2015-11-30/2015-12-06",
-        "revenue_inr": 830203.92,
-        "units": 1387
-      },
-      {
-        "week": "2015-12-07/2015-12-13",
-        "revenue_inr": 1088430.93,
-        "units": 1333
-      },
-      {
-        "week": "2015-12-14/2015-12-20",
-        "revenue_inr": 1198050.82,
-        "units": 1445
-      },
-      {
-        "week": "2015-12-21/2015-12-27",
-        "revenue_inr": 816173.74,
-        "units": 1384
-      },
-      {
-        "week": "2015-12-28/2016-01-03",
-        "revenue_inr": 646671.6,
-        "units": 716
-      }
-    ],
     "monthly": [
       {
         "month": "2006-01",
-        "revenue_inr": 1786983.04,
-        "units": 2571,
-        "mom_growth_pct": NaN
+        "revenue_inr": "1786983.04",
+        "units": "2571"
       },
       {
         "month": "2006-02",
-        "revenue_inr": 2154776.06,
-        "units": 3027,
-        "mom_growth_pct": 20.58
+        "revenue_inr": "2154776.06",
+        "units": "3027"
       },
       {
         "month": "2006-03",
-        "revenue_inr": 2307270.03,
-        "units": 3223,
-        "mom_growth_pct": 7.08
+        "revenue_inr": "2307270.03",
+        "units": "3223"
       },
       {
         "month": "2006-04",
-        "revenue_inr": 2279359.51,
-        "units": 3196,
-        "mom_growth_pct": -1.21
+        "revenue_inr": "2279359.51",
+        "units": "3196"
       },
       {
         "month": "2006-05",
-        "revenue_inr": 1520366.76,
-        "units": 2357,
-        "mom_growth_pct": -33.3
+        "revenue_inr": "1520366.76",
+        "units": "2357"
       },
       {
         "month": "2006-06",
-        "revenue_inr": 1492967.4,
-        "units": 2172,
-        "mom_growth_pct": -1.8
+        "revenue_inr": "1492967.40",
+        "units": "2172"
       },
       {
         "month": "2006-07",
-        "revenue_inr": 1476113.91,
-        "units": 2117,
-        "mom_growth_pct": -1.13
+        "revenue_inr": "1476113.91",
+        "units": "2117"
       },
       {
         "month": "2006-08",
-        "revenue_inr": 1275465.09,
-        "units": 1826,
-        "mom_growth_pct": -13.59
+        "revenue_inr": "1275465.09",
+        "units": "1826"
       },
       {
         "month": "2006-09",
-        "revenue_inr": 1533474.2,
-        "units": 2179,
-        "mom_growth_pct": 20.23
+        "revenue_inr": "1533474.20",
+        "units": "2179"
       },
       {
         "month": "2006-10",
-        "revenue_inr": 2218216.57,
-        "units": 3799,
-        "mom_growth_pct": 44.65
+        "revenue_inr": "2218216.57",
+        "units": "3799"
       },
       {
         "month": "2006-11",
-        "revenue_inr": 2808986.9899999998,
-        "units": 4862,
-        "mom_growth_pct": 26.63
+        "revenue_inr": "2808986.99",
+        "units": "4862"
       },
       {
         "month": "2006-12",
-        "revenue_inr": 4037169.01,
-        "units": 5322,
-        "mom_growth_pct": 43.72
+        "revenue_inr": "4037169.01",
+        "units": "5322"
       },
       {
         "month": "2007-01",
-        "revenue_inr": 1615001.51,
-        "units": 2860,
-        "mom_growth_pct": -60.0
+        "revenue_inr": "1615001.51",
+        "units": "2860"
       },
       {
         "month": "2007-02",
-        "revenue_inr": 2706369.63,
-        "units": 3250,
-        "mom_growth_pct": 67.58
+        "revenue_inr": "2706369.63",
+        "units": "3250"
       },
       {
         "month": "2007-03",
-        "revenue_inr": 2117059.98,
-        "units": 3522,
-        "mom_growth_pct": -21.77
+        "revenue_inr": "2117059.98",
+        "units": "3522"
       },
       {
         "month": "2007-04",
-        "revenue_inr": 2795741.34,
-        "units": 3406,
-        "mom_growth_pct": 32.06
+        "revenue_inr": "2795741.34",
+        "units": "3406"
       },
       {
         "month": "2007-05",
-        "revenue_inr": 2052762.61,
-        "units": 2537,
-        "mom_growth_pct": -26.58
+        "revenue_inr": "2052762.61",
+        "units": "2537"
       },
       {
         "month": "2007-06",
-        "revenue_inr": 1599980.63,
-        "units": 2625,
-        "mom_growth_pct": -22.06
+        "revenue_inr": "1599980.63",
+        "units": "2625"
       },
       {
         "month": "2007-07",
-        "revenue_inr": 1660480.79,
-        "units": 2180,
-        "mom_growth_pct": 3.78
+        "revenue_inr": "1660480.79",
+        "units": "2180"
       },
       {
         "month": "2007-08",
-        "revenue_inr": 1411937.59,
-        "units": 2125,
-        "mom_growth_pct": -14.97
+        "revenue_inr": "1411937.59",
+        "units": "2125"
       },
       {
         "month": "2007-09",
-        "revenue_inr": 1585704.45,
-        "units": 2166,
-        "mom_growth_pct": 12.31
+        "revenue_inr": "1585704.45",
+        "units": "2166"
       },
       {
         "month": "2007-10",
-        "revenue_inr": 2704394.91,
-        "units": 3797,
-        "mom_growth_pct": 70.55
+        "revenue_inr": "2704394.91",
+        "units": "3797"
       },
       {
         "month": "2007-11",
-        "revenue_inr": 4331880.49,
-        "units": 5355,
-        "mom_growth_pct": 60.18
+        "revenue_inr": "4331880.49",
+        "units": "5355"
       },
       {
         "month": "2007-12",
-        "revenue_inr": 4118811.62,
-        "units": 5865,
-        "mom_growth_pct": -4.92
+        "revenue_inr": "4118811.62",
+        "units": "5865"
       },
       {
         "month": "2008-01",
-        "revenue_inr": 2057122.69,
-        "units": 2566,
-        "mom_growth_pct": -50.06
+        "revenue_inr": "2057122.69",
+        "units": "2566"
       },
       {
         "month": "2008-02",
-        "revenue_inr": 2450725.06,
-        "units": 3602,
-        "mom_growth_pct": 19.13
+        "revenue_inr": "2450725.06",
+        "units": "3602"
       },
       {
         "month": "2008-03",
-        "revenue_inr": 2267070.08,
-        "units": 3534,
-        "mom_growth_pct": -7.49
+        "revenue_inr": "2267070.08",
+        "units": "3534"
       },
       {
         "month": "2008-04",
-        "revenue_inr": 2083919.96,
-        "units": 3024,
-        "mom_growth_pct": -8.08
+        "revenue_inr": "2083919.96",
+        "units": "3024"
       },
       {
         "month": "2008-05",
-        "revenue_inr": 2209050.57,
-        "units": 2285,
-        "mom_growth_pct": 6.0
+        "revenue_inr": "2209050.57",
+        "units": "2285"
       },
       {
         "month": "2008-06",
-        "revenue_inr": 1711395.33,
-        "units": 2416,
-        "mom_growth_pct": -22.53
+        "revenue_inr": "1711395.33",
+        "units": "2416"
       },
       {
         "month": "2008-07",
-        "revenue_inr": 1320605.74,
-        "units": 1909,
-        "mom_growth_pct": -22.83
+        "revenue_inr": "1320605.74",
+        "units": "1909"
       },
       {
         "month": "2008-08",
-        "revenue_inr": 1189322.07,
-        "units": 1592,
-        "mom_growth_pct": -9.94
+        "revenue_inr": "1189322.07",
+        "units": "1592"
       },
       {
         "month": "2008-09",
-        "revenue_inr": 1349977.13,
-        "units": 2015,
-        "mom_growth_pct": 13.51
+        "revenue_inr": "1349977.13",
+        "units": "2015"
       },
       {
         "month": "2008-10",
-        "revenue_inr": 2120384.65,
-        "units": 2818,
-        "mom_growth_pct": 57.07
+        "revenue_inr": "2120384.65",
+        "units": "2818"
       },
       {
         "month": "2008-11",
-        "revenue_inr": 2821090.21,
-        "units": 3916,
-        "mom_growth_pct": 33.05
+        "revenue_inr": "2821090.21",
+        "units": "3916"
       },
       {
         "month": "2008-12",
-        "revenue_inr": 2612912.17,
-        "units": 3859,
-        "mom_growth_pct": -7.38
+        "revenue_inr": "2612912.17",
+        "units": "3859"
       },
       {
         "month": "2009-01",
-        "revenue_inr": 1280504.37,
-        "units": 1864,
-        "mom_growth_pct": -50.99
+        "revenue_inr": "1280504.37",
+        "units": "1864"
       },
       {
         "month": "2009-02",
-        "revenue_inr": 1455245.3,
-        "units": 2061,
-        "mom_growth_pct": 13.65
+        "revenue_inr": "1455245.30",
+        "units": "2061"
       },
       {
         "month": "2009-03",
-        "revenue_inr": 1573650.18,
-        "units": 1988,
-        "mom_growth_pct": 8.14
+        "revenue_inr": "1573650.18",
+        "units": "1988"
       },
       {
         "month": "2009-04",
-        "revenue_inr": 1213773.56,
-        "units": 1763,
-        "mom_growth_pct": -22.87
+        "revenue_inr": "1213773.56",
+        "units": "1763"
       },
       {
         "month": "2009-05",
-        "revenue_inr": 1080128.46,
-        "units": 1281,
-        "mom_growth_pct": -11.01
+        "revenue_inr": "1080128.46",
+        "units": "1281"
       },
       {
         "month": "2009-06",
-        "revenue_inr": 883674.66,
-        "units": 1268,
-        "mom_growth_pct": -18.19
+        "revenue_inr": "883674.66",
+        "units": "1268"
       },
       {
         "month": "2009-07",
-        "revenue_inr": 674978.71,
-        "units": 1109,
-        "mom_growth_pct": -23.62
+        "revenue_inr": "674978.71",
+        "units": "1109"
       },
       {
         "month": "2009-08",
-        "revenue_inr": 1109319.61,
-        "units": 981,
-        "mom_growth_pct": 64.35
+        "revenue_inr": "1109319.61",
+        "units": "981"
       },
       {
         "month": "2009-09",
-        "revenue_inr": 763855.44,
-        "units": 1129,
-        "mom_growth_pct": -31.14
+        "revenue_inr": "763855.44",
+        "units": "1129"
       },
       {
         "month": "2009-10",
-        "revenue_inr": 1017567.27,
-        "units": 1517,
-        "mom_growth_pct": 33.21
+        "revenue_inr": "1017567.27",
+        "units": "1517"
       },
       {
         "month": "2009-11",
-        "revenue_inr": 1588812.9,
-        "units": 2326,
-        "mom_growth_pct": 56.14
+        "revenue_inr": "1588812.90",
+        "units": "2326"
       },
       {
         "month": "2009-12",
-        "revenue_inr": 1761970.92,
-        "units": 2395,
-        "mom_growth_pct": 10.9
+        "revenue_inr": "1761970.92",
+        "units": "2395"
       },
       {
         "month": "2010-01",
-        "revenue_inr": 738324.83,
-        "units": 1220,
-        "mom_growth_pct": -58.1
+        "revenue_inr": "738324.83",
+        "units": "1220"
       },
       {
         "month": "2010-02",
-        "revenue_inr": 842537.22,
-        "units": 1604,
-        "mom_growth_pct": 14.11
+        "revenue_inr": "842537.22",
+        "units": "1604"
       },
       {
         "month": "2010-03",
-        "revenue_inr": 1104064.51,
-        "units": 1744,
-        "mom_growth_pct": 31.04
+        "revenue_inr": "1104064.51",
+        "units": "1744"
       },
       {
         "month": "2010-04",
-        "revenue_inr": 1102614.31,
-        "units": 1413,
-        "mom_growth_pct": -0.13
+        "revenue_inr": "1102614.31",
+        "units": "1413"
       },
       {
         "month": "2010-05",
-        "revenue_inr": 1043071.71,
-        "units": 1168,
-        "mom_growth_pct": -5.4
+        "revenue_inr": "1043071.71",
+        "units": "1168"
       },
       {
         "month": "2010-06",
-        "revenue_inr": 893194.04,
-        "units": 1191,
-        "mom_growth_pct": -14.37
+        "revenue_inr": "893194.04",
+        "units": "1191"
       },
       {
         "month": "2010-07",
-        "revenue_inr": 686823.33,
-        "units": 1214,
-        "mom_growth_pct": -23.1
+        "revenue_inr": "686823.33",
+        "units": "1214"
       },
       {
         "month": "2010-08",
-        "revenue_inr": 604350.39,
-        "units": 947,
-        "mom_growth_pct": -12.01
+        "revenue_inr": "604350.39",
+        "units": "947"
       },
       {
         "month": "2010-09",
-        "revenue_inr": 602650.27,
-        "units": 1073,
-        "mom_growth_pct": -0.28
+        "revenue_inr": "602650.27",
+        "units": "1073"
       },
       {
         "month": "2010-10",
-        "revenue_inr": 1308987.07,
-        "units": 1848,
-        "mom_growth_pct": 117.21
+        "revenue_inr": "1308987.07",
+        "units": "1848"
       },
       {
         "month": "2010-11",
-        "revenue_inr": 1797134.57,
-        "units": 2528,
-        "mom_growth_pct": 37.29
+        "revenue_inr": "1797134.57",
+        "units": "2528"
       },
       {
         "month": "2010-12",
-        "revenue_inr": 1844044.32,
-        "units": 2647,
-        "mom_growth_pct": 2.61
+        "revenue_inr": "1844044.32",
+        "units": "2647"
       },
       {
         "month": "2011-01",
-        "revenue_inr": 924433.3099999999,
-        "units": 1262,
-        "mom_growth_pct": -49.87
+        "revenue_inr": "924433.31",
+        "units": "1262"
       },
       {
         "month": "2011-02",
-        "revenue_inr": 1079497.84,
-        "units": 1946,
-        "mom_growth_pct": 16.77
+        "revenue_inr": "1079497.84",
+        "units": "1946"
       },
       {
         "month": "2011-03",
-        "revenue_inr": 1333983.91,
-        "units": 1897,
-        "mom_growth_pct": 23.57
+        "revenue_inr": "1333983.91",
+        "units": "1897"
       },
       {
         "month": "2011-04",
-        "revenue_inr": 1343598.32,
-        "units": 1931,
-        "mom_growth_pct": 0.72
+        "revenue_inr": "1343598.32",
+        "units": "1931"
       },
       {
         "month": "2011-05",
-        "revenue_inr": 933036.33,
-        "units": 1376,
-        "mom_growth_pct": -30.56
+        "revenue_inr": "933036.33",
+        "units": "1376"
       },
       {
         "month": "2011-06",
-        "revenue_inr": 1127927.83,
-        "units": 1384,
-        "mom_growth_pct": 20.89
+        "revenue_inr": "1127927.83",
+        "units": "1384"
       },
       {
         "month": "2011-07",
-        "revenue_inr": 855205.06,
-        "units": 1562,
-        "mom_growth_pct": -24.18
+        "revenue_inr": "855205.06",
+        "units": "1562"
       },
       {
         "month": "2011-08",
-        "revenue_inr": 898233.62,
-        "units": 1263,
-        "mom_growth_pct": 5.03
+        "revenue_inr": "898233.62",
+        "units": "1263"
       },
       {
         "month": "2011-09",
-        "revenue_inr": 804891.91,
-        "units": 1293,
-        "mom_growth_pct": -10.39
+        "revenue_inr": "804891.91",
+        "units": "1293"
       },
       {
         "month": "2011-10",
-        "revenue_inr": 1774296.54,
-        "units": 2507,
-        "mom_growth_pct": 120.44
+        "revenue_inr": "1774296.54",
+        "units": "2507"
       },
       {
         "month": "2011-11",
-        "revenue_inr": 1919931.63,
-        "units": 3257,
-        "mom_growth_pct": 8.21
+        "revenue_inr": "1919931.63",
+        "units": "3257"
       },
       {
         "month": "2011-12",
-        "revenue_inr": 2525305.08,
-        "units": 3749,
-        "mom_growth_pct": 31.53
+        "revenue_inr": "2525305.08",
+        "units": "3749"
       },
       {
         "month": "2012-01",
-        "revenue_inr": 1316812.91,
-        "units": 1713,
-        "mom_growth_pct": -47.86
+        "revenue_inr": "1316812.91",
+        "units": "1713"
       },
       {
         "month": "2012-02",
-        "revenue_inr": 1757464.54,
-        "units": 2191,
-        "mom_growth_pct": 33.46
+        "revenue_inr": "1757464.54",
+        "units": "2191"
       },
       {
         "month": "2012-03",
-        "revenue_inr": 1856812.1,
-        "units": 2270,
-        "mom_growth_pct": 5.65
+        "revenue_inr": "1856812.10",
+        "units": "2270"
       },
       {
         "month": "2012-04",
-        "revenue_inr": 1599855.32,
-        "units": 2280,
-        "mom_growth_pct": -13.84
+        "revenue_inr": "1599855.32",
+        "units": "2280"
       },
       {
         "month": "2012-05",
-        "revenue_inr": 1232012.96,
-        "units": 1693,
-        "mom_growth_pct": -22.99
+        "revenue_inr": "1232012.96",
+        "units": "1693"
       },
       {
         "month": "2012-06",
-        "revenue_inr": 1303806.94,
-        "units": 2005,
-        "mom_growth_pct": 5.83
+        "revenue_inr": "1303806.94",
+        "units": "2005"
       },
       {
         "month": "2012-07",
-        "revenue_inr": 859042.84,
-        "units": 1416,
-        "mom_growth_pct": -34.11
+        "revenue_inr": "859042.84",
+        "units": "1416"
       },
       {
         "month": "2012-08",
-        "revenue_inr": 839418.1,
-        "units": 1344,
-        "mom_growth_pct": -2.28
+        "revenue_inr": "839418.10",
+        "units": "1344"
       },
       {
         "month": "2012-09",
-        "revenue_inr": 1191505.25,
-        "units": 1632,
-        "mom_growth_pct": 41.94
+        "revenue_inr": "1191505.25",
+        "units": "1632"
       },
       {
         "month": "2012-10",
-        "revenue_inr": 1716429.44,
-        "units": 2734,
-        "mom_growth_pct": 44.06
+        "revenue_inr": "1716429.44",
+        "units": "2734"
       },
       {
         "month": "2012-11",
-        "revenue_inr": 2485130.23,
-        "units": 3669,
-        "mom_growth_pct": 44.78
+        "revenue_inr": "2485130.23",
+        "units": "3669"
       },
       {
         "month": "2012-12",
-        "revenue_inr": 2497124.75,
-        "units": 4054,
-        "mom_growth_pct": 0.48
+        "revenue_inr": "2497124.75",
+        "units": "4054"
       },
       {
         "month": "2013-01",
-        "revenue_inr": 1395705.0,
-        "units": 2000,
-        "mom_growth_pct": -44.11
+        "revenue_inr": "1395705.00",
+        "units": "2000"
       },
       {
         "month": "2013-02",
-        "revenue_inr": 1624775.66,
-        "units": 2478,
-        "mom_growth_pct": 16.41
+        "revenue_inr": "1624775.66",
+        "units": "2478"
       },
       {
         "month": "2013-03",
-        "revenue_inr": 1583641.87,
-        "units": 2476,
-        "mom_growth_pct": -2.53
+        "revenue_inr": "1583641.87",
+        "units": "2476"
       },
       {
         "month": "2013-04",
-        "revenue_inr": 1923849.16,
-        "units": 2456,
-        "mom_growth_pct": 21.48
+        "revenue_inr": "1923849.16",
+        "units": "2456"
       },
       {
         "month": "2013-05",
-        "revenue_inr": 1736383.75,
-        "units": 1953,
-        "mom_growth_pct": -9.74
+        "revenue_inr": "1736383.75",
+        "units": "1953"
       },
       {
         "month": "2013-06",
-        "revenue_inr": 1587166.83,
-        "units": 2012,
-        "mom_growth_pct": -8.59
+        "revenue_inr": "1587166.83",
+        "units": "2012"
       },
       {
         "month": "2013-07",
-        "revenue_inr": 1335793.45,
-        "units": 1770,
-        "mom_growth_pct": -15.84
+        "revenue_inr": "1335793.45",
+        "units": "1770"
       },
       {
         "month": "2013-08",
-        "revenue_inr": 1426146.19,
-        "units": 1657,
-        "mom_growth_pct": 6.76
+        "revenue_inr": "1426146.19",
+        "units": "1657"
       },
       {
         "month": "2013-09",
-        "revenue_inr": 1101057.3,
-        "units": 1938,
-        "mom_growth_pct": -22.79
+        "revenue_inr": "1101057.30",
+        "units": "1938"
       },
       {
         "month": "2013-10",
-        "revenue_inr": 2492739.74,
-        "units": 3007,
-        "mom_growth_pct": 126.4
+        "revenue_inr": "2492739.74",
+        "units": "3007"
       },
       {
         "month": "2013-11",
-        "revenue_inr": 3123251.09,
-        "units": 4401,
-        "mom_growth_pct": 25.29
+        "revenue_inr": "3123251.09",
+        "units": "4401"
       },
       {
         "month": "2013-12",
-        "revenue_inr": 3509376.88,
-        "units": 4965,
-        "mom_growth_pct": 12.36
+        "revenue_inr": "3509376.88",
+        "units": "4965"
       },
       {
         "month": "2014-01",
-        "revenue_inr": 1328030.84,
-        "units": 2265,
-        "mom_growth_pct": -62.16
+        "revenue_inr": "1328030.84",
+        "units": "2265"
       },
       {
         "month": "2014-02",
-        "revenue_inr": 2492702.71,
-        "units": 3018,
-        "mom_growth_pct": 87.7
+        "revenue_inr": "2492702.71",
+        "units": "3018"
       },
       {
         "month": "2014-03",
-        "revenue_inr": 1923649.19,
-        "units": 3097,
-        "mom_growth_pct": -22.83
+        "revenue_inr": "1923649.19",
+        "units": "3097"
       },
       {
         "month": "2014-04",
-        "revenue_inr": 2249466.71,
-        "units": 2972,
-        "mom_growth_pct": 16.94
+        "revenue_inr": "2249466.71",
+        "units": "2972"
       },
       {
         "month": "2014-05",
-        "revenue_inr": 1728893.2,
-        "units": 2437,
-        "mom_growth_pct": -23.14
+        "revenue_inr": "1728893.20",
+        "units": "2437"
       },
       {
         "month": "2014-06",
-        "revenue_inr": 1859464.58,
-        "units": 2383,
-        "mom_growth_pct": 7.55
+        "revenue_inr": "1859464.58",
+        "units": "2383"
       },
       {
         "month": "2014-07",
-        "revenue_inr": 1685776.88,
-        "units": 2259,
-        "mom_growth_pct": -9.34
+        "revenue_inr": "1685776.88",
+        "units": "2259"
       },
       {
         "month": "2014-08",
-        "revenue_inr": 1031708.15,
-        "units": 1877,
-        "mom_growth_pct": -38.8
+        "revenue_inr": "1031708.15",
+        "units": "1877"
       },
       {
         "month": "2014-09",
-        "revenue_inr": 1481836.65,
-        "units": 2159,
-        "mom_growth_pct": 43.63
+        "revenue_inr": "1481836.65",
+        "units": "2159"
       },
       {
         "month": "2014-10",
-        "revenue_inr": 2593238.68,
-        "units": 3525,
-        "mom_growth_pct": 75.0
+        "revenue_inr": "2593238.68",
+        "units": "3525"
       },
       {
         "month": "2014-11",
-        "revenue_inr": 3435030.68,
-        "units": 5172,
-        "mom_growth_pct": 32.46
+        "revenue_inr": "3435030.68",
+        "units": "5172"
       },
       {
         "month": "2014-12",
-        "revenue_inr": 3790819.52,
-        "units": 5526,
-        "mom_growth_pct": 10.36
+        "revenue_inr": "3790819.52",
+        "units": "5526"
       },
       {
         "month": "2015-01",
-        "revenue_inr": 1870804.65,
-        "units": 2756,
-        "mom_growth_pct": -50.65
+        "revenue_inr": "1870804.65",
+        "units": "2756"
       },
       {
         "month": "2015-02",
-        "revenue_inr": 2709066.54,
-        "units": 3514,
-        "mom_growth_pct": 44.81
+        "revenue_inr": "2709066.54",
+        "units": "3514"
       },
       {
         "month": "2015-03",
-        "revenue_inr": 2568528.64,
-        "units": 3290,
-        "mom_growth_pct": -5.19
+        "revenue_inr": "2568528.64",
+        "units": "3290"
       },
       {
         "month": "2015-04",
-        "revenue_inr": 2441426.79,
-        "units": 3520,
-        "mom_growth_pct": -4.95
+        "revenue_inr": "2441426.79",
+        "units": "3520"
       },
       {
         "month": "2015-05",
-        "revenue_inr": 1836355.47,
-        "units": 3020,
-        "mom_growth_pct": -24.78
+        "revenue_inr": "1836355.47",
+        "units": "3020"
       },
       {
         "month": "2015-06",
-        "revenue_inr": 1788256.55,
-        "units": 2740,
-        "mom_growth_pct": -2.62
+        "revenue_inr": "1788256.55",
+        "units": "2740"
       },
       {
         "month": "2015-07",
-        "revenue_inr": 1844493.78,
-        "units": 2102,
-        "mom_growth_pct": 3.14
+        "revenue_inr": "1844493.78",
+        "units": "2102"
       },
       {
         "month": "2015-08",
-        "revenue_inr": 1506471.33,
-        "units": 2127,
-        "mom_growth_pct": -18.33
+        "revenue_inr": "1506471.33",
+        "units": "2127"
       },
       {
         "month": "2015-09",
-        "revenue_inr": 2180929.64,
-        "units": 2444,
-        "mom_growth_pct": 44.77
+        "revenue_inr": "2180929.64",
+        "units": "2444"
       },
       {
         "month": "2015-10",
-        "revenue_inr": 2658237.13,
-        "units": 4022,
-        "mom_growth_pct": 21.89
+        "revenue_inr": "2658237.13",
+        "units": "4022"
       },
       {
         "month": "2015-11",
-        "revenue_inr": 3982335.04,
-        "units": 5568,
-        "mom_growth_pct": 49.81
+        "revenue_inr": "3982335.04",
+        "units": "5568"
       },
       {
         "month": "2015-12",
-        "revenue_inr": 4454126.21,
-        "units": 6066,
-        "mom_growth_pct": 11.85
+        "revenue_inr": "4454126.21",
+        "units": "6066"
       }
-    ]
+    ],
+    "weekly": [],
+    "daily": []
   },
   "restock_recommendations": [
     {

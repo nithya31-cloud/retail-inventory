@@ -8,7 +8,32 @@ import {
   Tooltip, ResponsiveContainer, Legend
 } from "recharts";
 import { analyticsApi, fmt } from "../utils/api";
-import { TrendingUp, Brain } from "lucide-react";
+import { Brain } from "lucide-react";
+
+const PRODUCT_NAMES = {
+  "1": "Samsung Galaxy M14",
+  "2": "Boat Airdopes 141",
+  "3": "MI 43 inch LED TV",
+  "4": "HP Wireless Mouse",
+  "5": "Realme Buds Air 3",
+  "6": "HP 15s Laptop",
+  "7": "Canon PIXMA Printer",
+  "8": "Syska LED Bulb",
+  "9": "Levi's 511 Jeans",
+  "10": "Allen Solly Shirt",
+  "11": "Nike Air Max 270",
+  "12": "Fabindia Kurta",
+  "13": "Puma Track Pants",
+  "16": "Aashirvaad Atta",
+  "17": "Amul Butter 500g",
+  "19": "Nescafe Classic",
+  "21": "Fortune Sunflower Oil",
+  "25": "Prestige Cooker",
+  "28": "Usha Mixer Grinder",
+  "31": "Himalaya Face Wash",
+  "42": "Atomic Habits",
+  "47": "LEGO Classic Set",
+};
 
 export default function Forecasting() {
   const [forecasts, setForecasts] = useState({});
@@ -27,7 +52,6 @@ export default function Forecasting() {
 
   const selectedForecast = forecasts[selected];
 
-  // Build chart data: forecasts array
   const chartData = (selectedForecast?.forecasts || []).map((f, i) => ({
     date:      f.date,
     predicted: f.predicted,
@@ -35,6 +59,8 @@ export default function Forecasting() {
     upper:     f.upper_bound,
     label:     `Day ${i + 1}`,
   }));
+
+  const getProductName = (pid) => PRODUCT_NAMES[pid] || `Product #${pid}`;
 
   return (
     <div className="space-y-5">
@@ -55,7 +81,6 @@ export default function Forecasting() {
         </div>
       ) : (
         <>
-          {/* Product selector */}
           <div className="flex flex-wrap gap-2">
             {Object.entries(forecasts).map(([pid, f]) => (
               <button
@@ -67,19 +92,18 @@ export default function Forecasting() {
                     : "bg-white text-slate-600 border-slate-200 hover:border-blue-300"
                 }`}
               >
-                {pid === "1" ? "Aashirvaad Atta" : pid === "3" ? "MI 43 LED TV" : pid === "6" ? "HP Laptop" : pid === "11" ? "Nescafe Classic" : pid === "21" ? "Fortune Oil" : `Product #${pid}`}
+                {getProductName(pid)}
               </button>
             ))}
           </div>
 
           {selectedForecast && !selectedForecast.error && (
             <div className="space-y-4">
-              {/* Model info cards */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[
-                  { label: "Model",           value: "Polynomial LR", color: "text-blue-600" },
-                  { label: "Confidence",       value: fmt.pct(selectedForecast.confidence_pct), color: "text-green-600" },
-                  { label: "MAE",             value: `${selectedForecast.mae} units`, color: "text-amber-600" },
+                  { label: "Model",           value: "Polynomial LR",                                    color: "text-blue-600"   },
+                  { label: "Confidence",      value: fmt.pct(selectedForecast.confidence_pct),           color: "text-green-600"  },
+                  { label: "MAE",             value: `${selectedForecast.mae} units`,                    color: "text-amber-600"  },
                   { label: "30-Day Forecast", value: `${fmt.num(selectedForecast.total_forecast_qty)} units`, color: "text-purple-600" },
                 ].map(({ label, value, color }) => (
                   <div key={label} className="card p-4">
@@ -89,55 +113,20 @@ export default function Forecasting() {
                 ))}
               </div>
 
-              {/* Forecast chart */}
               <div className="card p-5">
                 <h2 className="font-semibold text-slate-700 mb-4">
-                  Demand Forecast — Next 30 Days (with confidence bands)
+                  Demand Forecast — {getProductName(selected)} — Next 30 Days
                 </h2>
                 <ResponsiveContainer width="100%" height={320}>
                   <ComposedChart data={chartData}>
                     <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
-                    <XAxis
-                      dataKey="date"
-                      tick={{ fontSize: 10, fill: "#94a3b8" }}
-                      tickFormatter={v => v?.slice(5)}
-                      interval={4}
-                    />
-                    <YAxis
-                      tick={{ fontSize: 11, fill: "#94a3b8" }}
-                      label={{ value: "Units", angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#94a3b8" } }}
-                    />
-                    <Tooltip
-                      contentStyle={{ borderRadius: 10, fontSize: 12 }}
-                      formatter={(v, n) => [Number(v).toFixed(1), n]}
-                    />
+                    <XAxis dataKey="date" tick={{ fontSize: 10, fill: "#94a3b8" }} tickFormatter={v => v?.slice(5)} interval={4} />
+                    <YAxis tick={{ fontSize: 11, fill: "#94a3b8" }} label={{ value: "Units", angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#94a3b8" } }} />
+                    <Tooltip contentStyle={{ borderRadius: 10, fontSize: 12 }} formatter={(v, n) => [Number(v).toFixed(1), n]} />
                     <Legend />
-                    {/* Confidence band */}
-                    <Area
-                      type="monotone"
-                      dataKey="upper"
-                      name="Upper bound"
-                      fill="#dbeafe"
-                      stroke="transparent"
-                      fillOpacity={0.6}
-                    />
-                    <Area
-                      type="monotone"
-                      dataKey="lower"
-                      name="Lower bound"
-                      fill="#ffffff"
-                      stroke="transparent"
-                      fillOpacity={1}
-                    />
-                    <Line
-                      type="monotone"
-                      dataKey="predicted"
-                      name="Predicted demand"
-                      stroke="#3b82f6"
-                      strokeWidth={2.5}
-                      dot={false}
-                      activeDot={{ r: 5, fill: "#3b82f6" }}
-                    />
+                    <Area type="monotone" dataKey="upper" name="Upper bound" fill="#dbeafe" stroke="transparent" fillOpacity={0.6} />
+                    <Area type="monotone" dataKey="lower" name="Lower bound" fill="#ffffff" stroke="transparent" fillOpacity={1} />
+                    <Line type="monotone" dataKey="predicted" name="Predicted demand" stroke="#3b82f6" strokeWidth={2.5} dot={false} activeDot={{ r: 5, fill: "#3b82f6" }} />
                   </ComposedChart>
                 </ResponsiveContainer>
                 <p className="text-xs text-slate-400 mt-2 text-center">
@@ -145,7 +134,6 @@ export default function Forecasting() {
                 </p>
               </div>
 
-              {/* Forecast table */}
               <div className="card p-5 overflow-x-auto">
                 <h2 className="font-semibold text-slate-700 mb-3">Forecast Detail Table</h2>
                 <table className="w-full text-sm">
