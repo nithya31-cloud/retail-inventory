@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "name": "US Bureau of Labor Statistics \u2014 Retail Trade Employment",
+      "via": "vega-datasets npm package",
+      "records": 120,
+      "period": "Jan 2006 \u2013 Dec 2015",
+      "usage": "Monthly demand signal driving transaction volume"
+    },
+    {
+      "name": "US Federal Reserve \u2014 CPI / Macroeconomic Data",
+      "via": "statsmodels Python package",
+      "records": 203,
+      "period": "1959 Q1 \u2013 2009 Q3",
+      "usage": "Inflation-adjusted price calibration"
+    },
+    {
+      "name": "NOAA / NWS \u2014 Seattle Historical Weather",
+      "via": "vega-datasets npm package",
+      "records": 1461,
+      "usage": "Seasonal demand pattern calibration"
+    },
+    {
+      "name": "Indian Retail Price Catalog",
+      "source": "Amazon.in / Flipkart / BigBasket verified MRP",
+      "products": 50,
+      "currency": "INR (\u20b9)",
+      "usage": "Real product names, SKUs, and market prices"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sidebar-w: 260px;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl border border-slate-100 shadow-sm;
+  }
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-lg
+           transition-colors duration-150 flex items-center gap-2 text-sm;
+  }
+  .btn-secondary {
+    @apply bg-white hover:bg-slate-50 text-slate-700 font-medium px-4 py-2 rounded-lg
+           border border-slate-200 transition-colors duration-150 flex items-center gap-2 text-sm;
+  }
+  .btn-danger {
+    @apply bg-red-600 hover:bg-red-700 text-white font-medium px-4 py-2 rounded-lg
+           transition-colors duration-150 flex items-center gap-2 text-sm;
+  }
+  .input-field {
+    @apply w-full px-3 py-2 rounded-lg border border-slate-200 text-sm
+           focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent
+           bg-white placeholder-slate-400 transition-all;
+  }
+  .badge-a   { @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-green-100 text-green-700; }
+  .badge-b   { @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-700; }
+  .badge-c   { @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-slate-100 text-slate-600; }
+  .badge-fast { @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-emerald-100 text-emerald-700; }
+  .badge-slow { @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-amber-100 text-amber-700; }
+  .badge-dead { @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-red-100 text-red-600; }
+  .kpi-card {
+    @apply card p-5 flex flex-col gap-2 hover:shadow-md transition-shadow;
+  }
+  .sidebar-link {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium
+           text-slate-600 hover:bg-blue-50 hover:text-blue-700 transition-all cursor-pointer;
+  }
+  .sidebar-link.active {
+    @apply bg-blue-600 text-white hover:bg-blue-700 hover:text-white;
+  }
+  .table-row {
+    @apply border-b border-slate-50 hover:bg-slate-50/80 transition-colors;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar        { width: 6px; height: 6px; }
+::-webkit-scrollbar-track  { background: transparent; }
+::-webkit-scrollbar-thumb  { background: #cbd5e1; border-radius: 99px; }
+
+/* Recharts tooltip */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  border-radius: 10px !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
+}

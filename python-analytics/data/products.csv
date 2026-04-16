@@ -1,0 +1,51 @@
+id,sku,name,category,category_id,supplier,supplier_id,unit_price,cost_price,quantity_in_stock,reorder_level,reorder_quantity
+1,SKU0001,Samsung Galaxy M14 5G,Electronics,1,Reliance Retail,1,13999.0,10800.0,51,5,20
+2,SKU0002,Boat Airdopes 141 TWS Earbuds,Electronics,1,Amazon Seller,7,1499.0,950.0,92,15,50
+3,SKU0003,MI 43 inch Full HD LED TV,Electronics,1,Reliance Retail,1,26999.0,20500.0,14,3,10
+4,SKU0004,HP Wireless Optical Mouse,Electronics,1,Amazon Seller,7,699.0,400.0,71,20,60
+5,SKU0005,Realme Buds Air 3 Neo,Electronics,1,Amazon Seller,7,2499.0,1600.0,60,10,30
+6,SKU0006,HP 15s Laptop 8GB RAM,Electronics,1,Croma Retail,3,47999.0,38000.0,20,2,5
+7,SKU0007,Canon PIXMA Inkjet Printer,Electronics,1,Croma Retail,3,3299.0,2100.0,82,5,15
+8,SKU0008,Syska 9W LED Bulb (Pack 4),Electronics,1,Bajaj Electricals,5,349.0,180.0,86,30,90
+9,SKU0009,Levi's 511 Slim Fit Jeans,Clothing,2,Levi Strauss India,2,2499.0,1100.0,74,10,30
+10,SKU0010,Allen Solly Regular Fit Shirt,Clothing,2,Madura Fashion,3,1299.0,620.0,74,15,40
+11,SKU0011,Nike Air Max 270 Running Shoes,Clothing,2,Nike India,4,9999.0,5500.0,87,5,15
+12,SKU0012,Fabindia Cotton Kurta,Clothing,2,Fabindia Ltd,5,999.0,420.0,99,12,35
+13,SKU0013,Puma Men Track Pants,Clothing,2,Puma India,6,1799.0,850.0,23,10,30
+14,SKU0014,Zara Floral Summer Dress,Clothing,2,Inditex India,2,3999.0,1800.0,2,6,20
+15,SKU0015,Van Heusen Formal Trousers,Clothing,2,Madura Fashion,3,1999.0,950.0,21,10,30
+16,SKU0016,Aashirvaad Whole Wheat Atta 10kg,Food & Grocery,3,ITC Limited,4,450.0,310.0,52,40,120
+17,SKU0017,Amul Butter 500g,Food & Grocery,3,GCMMF Amul,2,310.0,215.0,1,50,150
+18,SKU0018,Tata Salt Lite 1kg,Food & Grocery,3,Tata Consumer,1,32.0,20.0,87,60,200
+19,SKU0019,Nescafe Classic 200g Jar,Food & Grocery,3,Nestle India,3,540.0,340.0,29,25,80
+20,SKU0020,Haldirams Bhujia Sev 400g,Food & Grocery,3,Haldiram Snacks,4,195.0,115.0,37,40,100
+21,SKU0021,Fortune Refined Sunflower Oil 5L,Food & Grocery,3,Adani Wilmar,4,720.0,520.0,1,30,90
+22,SKU0022,Parle-G Original Glucose Biscuit 800g,Food & Grocery,3,Parle Products,5,80.0,48.0,63,80,250
+23,SKU0023,Maggi 2-Minute Noodles 12-pack,Food & Grocery,3,Nestle India,3,228.0,145.0,59,50,150
+24,SKU0024,Britannia Good Day Cashew 600g,Food & Grocery,3,Britannia Industries,5,120.0,72.0,20,50,150
+25,SKU0025,Prestige Deluxe Plus Pressure Cooker 5L,Home & Kitchen,4,TTK Prestige,5,2299.0,1200.0,32,8,25
+26,SKU0026,Pigeon Non-Stick Dosa Tawa 30cm,Home & Kitchen,4,Stovekraft,6,699.0,370.0,75,12,35
+27,SKU0027,Milton Casserole Hot Pack 3 Set,Home & Kitchen,4,Milton India,5,949.0,480.0,57,10,30
+28,SKU0028,Usha Mixer Grinder 3 Jar 500W,Home & Kitchen,4,Usha International,5,3699.0,2200.0,21,5,15
+29,SKU0029,Cello Opalware Dinner Set 18pc,Home & Kitchen,4,Cello Group,6,1299.0,680.0,88,8,25
+30,SKU0030,Pigeon by Stovekraft Kettle 1.5L,Home & Kitchen,4,Stovekraft,6,849.0,450.0,48,10,30
+31,SKU0031,Himalaya Purifying Neem Face Wash 150ml,Health & Beauty,5,Himalaya Drug,5,180.0,92.0,90,30,90
+32,SKU0032,Dabur Chyawanprash 1kg,Health & Beauty,5,Dabur India,6,520.0,300.0,58,20,60
+33,SKU0033,Patanjali Dant Kanti Toothpaste 200g,Health & Beauty,5,Patanjali,5,95.0,48.0,41,35,100
+34,SKU0034,Dove Shampoo Intense Repair 340ml,Health & Beauty,5,HUL India,3,365.0,200.0,91,20,70
+35,SKU0035,Nivea Body Lotion Extra White 400ml,Health & Beauty,5,Beiersdorf India,3,399.0,218.0,59,15,50
+36,SKU0036,Mamaearth Onion Hair Oil 250ml,Health & Beauty,5,Honasa Consumer,7,349.0,190.0,79,15,50
+37,SKU0037,Nivia Football Size 5,Sports,6,Nivia Sports,7,549.0,285.0,14,10,30
+38,SKU0038,Cosco Badminton Racket Combo,Sports,6,Cosco India,7,999.0,490.0,61,8,25
+39,SKU0039,Decathlon Yoga Mat 5mm,Sports,6,Decathlon India,1,1299.0,660.0,61,6,20
+40,SKU0040,Strauss Adjustable Dumbbell 5kg,Sports,6,Strauss Sports,7,1499.0,780.0,46,8,25
+41,SKU0041,Yonex Mavis 350 Shuttlecock 6pc,Sports,6,Yonex India,7,445.0,220.0,61,20,60
+42,SKU0042,Atomic Habits James Clear,Books,7,Penguin Random House,7,499.0,220.0,50,10,30
+43,SKU0043,Rich Dad Poor Dad Kiyosaki,Books,7,Manjul Publishing,7,399.0,175.0,54,10,30
+44,SKU0044,NCERT Physics Part I Class 12,Books,7,NCERT Publications,2,165.0,80.0,63,20,60
+45,SKU0045,Camlin Geometry Box Classic,Books,7,Kokuyo Camlin,4,215.0,100.0,2,25,80
+46,SKU0046,Reynolds 045 Fine Carbure 10pk,Books,7,Reynolds India,4,95.0,44.0,50,35,100
+47,SKU0047,LEGO Classic Creative Bricks Set,Toys,8,LEGO India,1,3499.0,2100.0,6,5,15
+48,SKU0048,Hot Wheels Basic Car 5-Pack,Toys,8,Mattel India,1,699.0,370.0,20,12,40
+49,SKU0049,Funskool Monopoly India,Toys,8,Funskool India,7,1049.0,560.0,72,8,25
+50,SKU0050,Hasbro Jenga Classic Game,Toys,8,Hasbro India,7,799.0,400.0,38,8,25
