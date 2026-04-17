@@ -77,26 +77,39 @@ const getAbc = async (req, res) => {
 // ── GET /api/analytics/trends ────────────────────────────────
 const getTrends = async (req, res) => {
   try {
-    const { period = "daily" } = req.query;
-    const analytics = getAnalytics();
+    const { period = "monthly" } = req.query;
 
-    if (analytics?.sales_trends?.[period]) {
-      return res.json({ success: true, data: analytics.sales_trends[period] });
+    if (period === "monthly") {
+      const [rows] = await pool.query(`
+        SELECT DATE_FORMAT(sale_date,'%Y-%m') as month,
+        ROUND(SUM(total_amount),2) as revenue_inr,
+        SUM(quantity_sold) as units
+        FROM sales GROUP BY month ORDER BY month
+      `);
+      return res.json({ success: true, data: rows });
     }
 
-    // DB fallback for daily
-    const [rows] = await pool.query(`
-      SELECT
-        DATE_FORMAT(sale_date, '%Y-%m-%d') AS sale_date,
-        ROUND(SUM(total_amount), 2)        AS revenue_inr,
-        SUM(quantity_sold)                 AS units_sold
-      FROM sales
-      WHERE sale_date >= DATE_SUB(CURDATE(), INTERVAL 90 DAY)
-      GROUP BY sale_date
-      ORDER BY sale_date
-    `);
+    if (period === "weekly") {
+      const [rows] = await pool.query(`
+        SELECT YEARWEEK(sale_date) as week,
+        ROUND(SUM(total_amount),2) as revenue_inr,
+        SUM(quantity_sold) as units
+        FROM sales GROUP BY week ORDER BY week
+      `);
+      return res.json({ success: true, data: rows });
+    }
 
-    return res.json({ success: true, data: rows });
+    if (period === "daily") {
+      const [rows] = await pool.query(`
+        SELECT DATE_FORMAT(sale_date,'%Y-%m-%d') as sale_date,
+        ROUND(SUM(total_amount),2) as revenue_inr,
+        SUM(quantity_sold) as units
+        FROM sales
+        WHERE sale_date >= DATE_SUB('2015-12-31', INTERVAL 90 DAY)
+        GROUP BY sale_date ORDER BY sale_date
+      `);
+      return res.json({ success: true, data: rows });
+    }
   } catch (err) {
     logger.error(`getTrends: ${err.message}`);
     return res.status(500).json({ success: false, message: "Failed to fetch trends" });
